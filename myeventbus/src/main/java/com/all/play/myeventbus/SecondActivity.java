@@ -53,6 +53,8 @@ public class SecondActivity extends AppCompatActivity {
             EventBus.getDefault().post(new MessageOrg(et_get));
             MainActivity.start(SecondActivity.this);
         }
+
+        //this is a test commit
     }
 
 }
